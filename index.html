@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task List</title>
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>TO-DO List</h1>
+      <div id="form-div">
+        <h2>Inserire nuovo Task</h2>
+        <form id="task-form">
+          <label for="task">Nome Task</label>
+          <input type="text" id="task" required />
+          <button id="create-task" type="submit">CREA TASK</button>
+        </form>
+      </div>
+      <div id="task-list"></div>
+    </div>
+    <script src="script/index.js"></script>
+  </body>
+</html>

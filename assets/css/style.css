@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.3em;
+}
+
+.container {
+  background: linear-gradient(rgb(112, 188, 189), white);
+  height: 100vh;
+}
+
+h1 {
+  font-size: 2em;
+  text-align: center;
+  padding: 1em 0;
+  color: white;
+}
+
+h2 {
+  font-size: 1.3em;
+  padding: 1em 0;
+  color: rgb(8, 148, 22);
+}
+
+#form-div {
+  width: 32vw;
+  margin: 0 auto;
+  text-align: center;
+}
+
+label {
+  color: brown;
+}
+
+input[type="text"] {
+  display: inline-block;
+  height: 1.5em;
+  border-radius: 5px;
+  background-color: antiquewhite;
+  border: 0;
+}
+
+input:focus {
+  border: 0;
+}
+
+button[type="submit"],
+.task-div > button {
+  border: 0;
+  display: inline-block;
+  height: 1.9em;
+  padding: 0.5em;
+  margin: 0.5em;
+  color: white;
+  background-color: brown;
+  border-radius: 5px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+#task-form {
+  background: linear-gradient(rgb(112, 134, 189), white);
+  padding: 1.5em;
+  border-radius: 5px;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+  padding-bottom: 1em;
+}
+
+#task-list {
+  width: 34.5vw;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.task-div {
+  background-color: blanchedalmond;
+  margin: 1em;
+  margin-left: 0;
+  margin-right: 0;
+  border-radius: 5px;
+  padding: 1em;
+  /* width: 100%; */
+  margin: 1em 1em;
+}
+
+.task-div > label {
+  margin-right: 1em;
+  display: inline-block;
+  width: 17rem;
+}
