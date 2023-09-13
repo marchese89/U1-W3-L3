@@ -1,5 +1,5 @@
-const button = document.getElementById("create-task");
-button.addEventListener("click", function (event) {
+const form = document.getElementById("form-div");
+form.addEventListener("submit", function (event) {
   event.preventDefault();
   const task = document.getElementById("task");
   if (task.value === "") {
